@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AdoDotNetService/AdoDotNetService.csproj" />
+  <Project Path="One.WebApplication1/One.WebApplication1.csproj" />
+</Solution>
