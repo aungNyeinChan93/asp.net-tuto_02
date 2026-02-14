@@ -13,6 +13,6 @@ namespace One.ConsoleApp1
 
         public string? AuthorName  { get; set; }
 
-        public bool DeleteFlag { get; set; }
+        public bool DeleteFlag { get; set; } = false;
     }
 }

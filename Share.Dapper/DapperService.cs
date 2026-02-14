@@ -25,5 +25,15 @@ namespace Share.Dapper
             }
         }
 
+        public bool Excute(string query , object? parameters = null)
+        {
+            using (IDbConnection db = new SqlConnection(this._connection))
+            {
+               var result =  db.Execute(query,parameters);
+
+                return result >= 1;
+            }
+        }
+
     }
 }
