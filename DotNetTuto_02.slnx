@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="AdoDotNetService/AdoDotNetService.csproj" />
+  <Project Path="One.ConsoleApp1/One.ConsoleApp1.csproj" Id="64f9088d-6139-4d12-89cb-90580fb74643" />
   <Project Path="One.WebApplication1/One.WebApplication1.csproj" />
+  <Project Path="Share.Dapper/Share.Dapper.csproj" Id="0efd0a36-d761-4b0c-80e8-f86a3ac124e2" />
 </Solution>
