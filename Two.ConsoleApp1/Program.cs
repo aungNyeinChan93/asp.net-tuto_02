@@ -13,7 +13,7 @@ foreach (var b in blogs)
 }
 
 
-var blog = db.TblBlogs.AsNoTracking().Where(b=>b.BlogId == 68).FirstOrDefault();
+var blog = db.TblBlogs.AsNoTracking().Where(b => b.BlogId == 68).FirstOrDefault();
 Console.WriteLine($"Find BLog Title is {blog!.Title}");
 
 
@@ -23,3 +23,5 @@ db.SaveChanges();
 
 db.Entry(blog).State = EntityState.Deleted;
 db.SaveChanges();
+
+
