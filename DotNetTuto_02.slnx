@@ -10,4 +10,5 @@
   <Project Path="Share.EFCore/Share.EFCore.csproj" Id="a720d39c-2fdf-4b94-a215-e734666b87e9" />
   <Project Path="Three.ConsoleApp1/Three.ConsoleApp1.csproj" Id="5971be85-cfbd-447a-a57e-2dc5c64d2868" />
   <Project Path="Two.ConsoleApp1/Two.ConsoleApp1.csproj" Id="4461bc1b-0cbf-45f9-8ba4-f51c8bbce2e9" />
+  <Project Path="Two.MinimalApi/Two.MinimalApi.csproj" Id="8061e2a4-0eb9-4081-acc3-dba8b0063331" />
 </Solution>
