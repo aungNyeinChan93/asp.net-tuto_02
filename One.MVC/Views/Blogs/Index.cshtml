@@ -1,0 +1,87 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog List</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background: #f9f9f9;
+          color: #333;
+        }
+        header {
+          background: #4CAF50;
+          color: white;
+          padding: 1rem;
+          text-align: center;
+        }
+        .container {
+          max-width: 800px;
+          margin: 2rem auto;
+          padding: 0 1rem;
+        }
+        .blog-card {
+          background: white;
+          border-radius: 6px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          margin-bottom: 1.5rem;
+          padding: 1rem;
+        }
+        .blog-card h2 {
+          margin-top: 0;
+        }
+        .blog-card p {
+          color: #555;
+        }
+        .blog-card a {
+          text-decoration: none;
+          color: #4CAF50;
+          font-weight: bold;
+        }
+        footer {
+          text-align: center;
+          padding: 1rem;
+          background: #eee;
+          margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog List</h1>
+    </header>
+
+    <div class="container">
+        <div class="blog-card">
+            <h2>Understanding Async Programming in C#</h2>
+            <p>Learn the fundamentals of async/await, tasks, and how to write efficient non-blocking code in .NET.</p>
+            <a href="blog1.html">Read More →</a>
+        </div>
+
+        <div class="blog-card">
+            <h2>Mastering Middleware in ASP.NET Core</h2>
+            <p>A deep dive into middleware pipelines, error handling, and best practices for scalable applications.</p>
+            <a href="blog2.html">Read More →</a>
+        </div>
+
+        <div class="blog-card">
+            <h2>Git Workflows for Professional Teams</h2>
+            <p>Explore branching strategies, .gitignore setup, and clean commit practices for collaborative projects.</p>
+            <a href="blog3.html">Read More →</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

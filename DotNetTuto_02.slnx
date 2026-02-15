@@ -5,6 +5,7 @@
   <Project Path="AdoDotNetService/AdoDotNetService.csproj" />
   <Project Path="One.ConsoleApp1/One.ConsoleApp1.csproj" Id="64f9088d-6139-4d12-89cb-90580fb74643" />
   <Project Path="One.MInimalApi/One.MInimalApi.csproj" Id="7ad7126f-7b36-476c-b4af-cca6d6bbfaaa" />
+  <Project Path="One.MVC/One.MVC.csproj" Id="e5646820-4aea-44e9-aae6-d74a6c1438a3" />
   <Project Path="One.WebApplication1/One.WebApplication1.csproj" />
   <Project Path="Share.Dapper/Share.Dapper.csproj" Id="0efd0a36-d761-4b0c-80e8-f86a3ac124e2" />
   <Project Path="Share.EFCore/Share.EFCore.csproj" Id="a720d39c-2fdf-4b94-a215-e734666b87e9" />
